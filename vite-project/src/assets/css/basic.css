@@ -1,0 +1,71 @@
+/* ==============================
+
+  Basic
+
+================================= */
+html {
+	font-size: clamp(10px, calc(100vw * 10 / 375), 10px);
+}
+
+body {
+	font-family: var(--font-family-mplus);
+	font-feature-settings: "palt" 1;
+	font-size: 1.6rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.6;
+	word-break: keep-all;
+	overflow-wrap: anywhere;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	margin: 0;
+	font-weight: normal;
+}
+h1 {
+	font-size: 2.4rem;
+	line-height: 3.8;
+}
+h2 {
+	font-size: 2.2rem;
+	line-height: 3.5;
+}
+h3 {
+	font-size: 2rem;
+	line-height: 3.2;
+}
+h4 {
+	font-size: 1.8rem;
+	line-height: 2.8;
+}
+
+p {
+	margin: initial;
+}
+
+ul {
+	margin: initial;
+	padding: initial;
+}
+li {
+	list-style: none;
+}
+
+a {
+	color: var(--color-black);
+	@media (width >= 768px) {
+		transition: ease 0.3s;
+	}
+	@media (width >= 768px) {
+		&:hover {
+			opacity: 0.6;
+		}
+	}
+}
