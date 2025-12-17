@@ -50,11 +50,11 @@ function Header() {
                     <h1>introduction</h1>
                 </div>
                 <nav className={styleGlobalNavi.GlobalNavi}>
-                    <button className={styleGlobalNavi.GlobalNavi__OpenButton} onClick={toggleMenu}><img src="/icon/menu.svg" alt="" /></button>
+                    <button className={styleGlobalNavi.GlobalNavi__OpenButton} onClick={toggleMenu}><img src="/portfolio-1215/icon/menu.svg" alt="" /></button>
                     <div ref={menuContentRef} className={styleGlobalNavi.GlobalNavi__MenuContent}>
                         <div ref={menuOverlayRef} className={styleGlobalNavi.GlobalNavi__MenuContent__Overlay} onClick={toggleMenu}></div>
                         <div ref={menuContentInnerRef} className={styleGlobalNavi.GlobalNavi__MenuContent__Inner}>
-                            <p ref={menuContentInnerRef} className={styleGlobalNavi.GlobalNavi__MenuContent__Close} onClick={toggleMenu}><img src="/icon/close.svg" alt="" /></p>
+                            <p ref={menuContentInnerRef} className={styleGlobalNavi.GlobalNavi__MenuContent__Close} onClick={toggleMenu}><img src="/portfolio-1215/icon/close.svg" alt="" /></p>
                             <ul className={styleGlobalNavi.GlobalNavi__List}>
                                 <li><a href="#profile" className={styleGlobalNavi.GlobalNavi__Link}>プロフィール</a></li>
                                 <li><a href="#skill" className={styleGlobalNavi.GlobalNavi__Link}>スキル</a></li>

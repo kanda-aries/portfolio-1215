@@ -177,7 +177,7 @@ function Home() {
                     </div>
                     <div className={styles.Home__Record__List}>
                         <article className={styles.Home__Record__ListItem}>
-                            <div className={styles.Home__Record__ListItem__Img}><img src="/icon/car.svg" className={styles.img_icon} alt="" /></div>
+                            <div className={styles.Home__Record__ListItem__Img}><img src="/portfolio-1215/icon/car.svg" className={styles.img_icon} alt="" /></div>
                             <h3>法人向け予約導線再構築</h3>
                             <div className={styles.Home__Record__ListItem__Content}>
                                 <p>フロントエンドリーダーとしてディレクションとモック制作を行いました。</p>
@@ -185,7 +185,7 @@ function Home() {
                             </div>
                         </article>
                         <article className={styles.Home__Record__ListItem}>
-                            <div className={styles.Home__Record__ListItem__Img}><img src="/icon/carry.svg" className={styles.img_icon} alt="" /></div>
+                            <div className={styles.Home__Record__ListItem__Img}><img src="/portfolio-1215/icon/carry.svg" className={styles.img_icon} alt="" /></div>
                             <h3>運用・制作</h3>
                             <div className={styles.Home__Record__ListItem__Content}>
                                 <p>フロントエンドリーダーとしてサイト運用とページ制作を行っています。</p>
@@ -193,7 +193,7 @@ function Home() {
                             </div>
                         </article>
                         <article className={styles.Home__Record__ListItem}>
-                            <div className={styles.Home__Record__ListItem__Img}><img src="/icon/health.svg" className={styles.img_icon} alt="" /></div>
+                            <div className={styles.Home__Record__ListItem__Img}><img src="/portfolio-1215/icon/health.svg" className={styles.img_icon} alt="" /></div>
                             <h3>運用・制作</h3>
                             <div className={styles.Home__Record__ListItem__Content}>
                                 <p>フロントエンドリーダーとしてサイト運用とページ制作を行っています。</p>
@@ -201,7 +201,7 @@ function Home() {
                             </div>
                         </article>
                         <article className={styles.Home__Record__ListItem}>
-                            <div className={styles.Home__Record__ListItem__Img}><img src="/icon/candy.svg" className={styles.img_icon} alt="" /></div>
+                            <div className={styles.Home__Record__ListItem__Img}><img src="/portfolio-1215/icon/candy.svg" className={styles.img_icon} alt="" /></div>
                             <h3>JavaScriptを使った表示切替え</h3>
                             <div className={styles.Home__Record__ListItem__Content}>
                                 <p>ボタン押下後に特定確率が定義された商品をランダムに選定して表示する機能を実装しました。</p>
@@ -209,7 +209,7 @@ function Home() {
                             </div>
                         </article>
                         <article className={styles.Home__Record__ListItem}>
-                            <div className={styles.Home__Record__ListItem__Img}><img src="/icon/health.svg" className={styles.img_icon} alt="" /></div>
+                            <div className={styles.Home__Record__ListItem__Img}><img src="/portfolio-1215/icon/health.svg" className={styles.img_icon} alt="" /></div>
                             <h3>Reactを使った表示切替え</h3>
                             <div className={styles.Home__Record__ListItem__Content}>
                                 <p>設問に答えた結果、適切なページを表示する機能を実装しました。</p>
@@ -217,7 +217,7 @@ function Home() {
                             </div>
                         </article>
                         <article className={styles.Home__Record__ListItem}>
-                            <div className={styles.Home__Record__ListItem__Img}><img src="/icon/plane.svg" className={styles.img_icon} alt="" /></div>
+                            <div className={styles.Home__Record__ListItem__Img}><img src="/portfolio-1215/icon/plane.svg" className={styles.img_icon} alt="" /></div>
                             <h3>制作・法人向け再構築</h3>
                             <div className={styles.Home__Record__ListItem__Content}>
                                 <p>法人向け再構築では、フロントエンドリーダーとしてディレクションとモック作成を行いました。</p>
