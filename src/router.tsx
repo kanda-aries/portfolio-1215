@@ -9,8 +9,9 @@ export const router = createBrowserRouter([
     element: <DefaultTemplate />,
     children: [
       { path: "/", element: <Home /> },
-      { path: "/portfolio-1215/", element: <Home /> },
       { path: "*", element: <NotFound /> }
     ],
   },
-]);
+], {
+  basename: "/portfolio-1215"
+});
