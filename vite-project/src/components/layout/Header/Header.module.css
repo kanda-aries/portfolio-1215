@@ -1,0 +1,26 @@
+.Header {
+	container-type: inline-size;
+
+	background: var(--color-black);
+
+	.Header__Inner{
+		display: grid;
+		grid-template-columns: auto 1fr;
+		align-items: center;
+		max-width: var(--size-xl);
+		margin-inline: auto;
+		padding-block: min(calc((8 / 375) * 100vw), 8px);
+		padding-inline: var(--spacing-10);
+	}
+
+	.Header__Heading{
+		h1 {
+			color: var(--color-white);
+			font-size: 1.4rem;
+			font-weight: 600;
+			line-height: 2;
+		}
+	}
+
+
+}
