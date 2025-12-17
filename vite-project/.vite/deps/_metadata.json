@@ -2,7 +2,54 @@
   "hash": "ea936e95",
   "configHash": "00b7dbac",
   "lockfileHash": "a024a0d4",
-  "browserHash": "53fb9246",
-  "optimized": {},
-  "chunks": {}
+  "browserHash": "3a467dc8",
+  "optimized": {
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "1bf65577",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "3da3a2fe",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "dbf84816",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "75af026e",
+      "needsInterop": false
+    },
+    "@splidejs/react-splide": {
+      "src": "../../node_modules/@splidejs/react-splide/dist/js/react-splide.esm.js",
+      "file": "@splidejs_react-splide.js",
+      "fileHash": "f7f1e4ff",
+      "needsInterop": false
+    },
+    "gsap": {
+      "src": "../../node_modules/gsap/index.js",
+      "file": "gsap.js",
+      "fileHash": "8b80f7b7",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-AUSEWYIV": {
+      "file": "chunk-AUSEWYIV.js"
+    },
+    "chunk-2VHV66RP": {
+      "file": "chunk-2VHV66RP.js"
+    },
+    "chunk-5WRI5ZAA": {
+      "file": "chunk-5WRI5ZAA.js"
+    }
+  }
 }
