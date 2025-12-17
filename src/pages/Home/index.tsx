@@ -47,7 +47,7 @@ function Home() {
                         <h1>KANDA AIKA</h1>
                         <p className="lead">Frontend Engineer / Web Developer</p>
                         <ul className={styles.Home__Firstview__List}>
-                            <li><a href="https://github.com/kanda-aries" target="_blank"><img src="/icon/github.svg" alt="" /></a></li>
+                            <li><a href="https://github.com/kanda-aries" target="_blank"><img src="/portfolio-1215/icon/github.svg" alt="" /></a></li>
                         </ul>
                     </div>
                 </div>

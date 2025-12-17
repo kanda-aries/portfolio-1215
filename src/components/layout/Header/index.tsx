@@ -56,9 +56,9 @@ function Header() {
                         <div ref={menuContentInnerRef} className={styleGlobalNavi.GlobalNavi__MenuContent__Inner}>
                             <p ref={menuContentInnerRef} className={styleGlobalNavi.GlobalNavi__MenuContent__Close} onClick={toggleMenu}><img src="/portfolio-1215/icon/close.svg" alt="" /></p>
                             <ul className={styleGlobalNavi.GlobalNavi__List}>
-                                <li><a href="#profile" className={styleGlobalNavi.GlobalNavi__Link}>プロフィール</a></li>
-                                <li><a href="#skill" className={styleGlobalNavi.GlobalNavi__Link}>スキル</a></li>
-                                <li><a href="#record" className={styleGlobalNavi.GlobalNavi__Link}>作品</a></li>
+                                <li><a href="#profile" className={styleGlobalNavi.GlobalNavi__Link} onClick={toggleMenu}>プロフィール</a></li>
+                                <li><a href="#skill" className={styleGlobalNavi.GlobalNavi__Link} onClick={toggleMenu}>スキル</a></li>
+                                <li><a href="#record" className={styleGlobalNavi.GlobalNavi__Link} onClick={toggleMenu}>作品</a></li>
                             </ul>
                         </div>
                     </div>

@@ -18,6 +18,10 @@
 		}
 		@media (width < 768px) {
 			display: block;
+			position: fixed;
+			top: min(calc((8/375)*100vw),8px);
+			right: min(calc((10/375)*100vw),10px);
+			z-index: 2;
 		}
 
 		img{
@@ -43,7 +47,7 @@
 			transform: translate(50%,50%);
 			right: 50%;
 			bottom: 50%;
-			z-index: 10;
+			z-index: 90;
 		}
 	}
 
@@ -71,7 +75,7 @@
 			transform: translate(50%,50%);
 			right: 50%;
 			bottom: 50%;
-			z-index: 11;
+			z-index: 91;
 		}
 	}
 
@@ -87,7 +91,7 @@
 			transform: translate(50%,50%);
 			right: 50%;
 			bottom: 50%;
-			z-index: 12;
+			z-index: 92;
 		}
 	}
 
