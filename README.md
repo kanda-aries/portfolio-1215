@@ -1,6 +1,6 @@
 # KANDA AIKA Portfolio (Vite + React + TypeScript)
 
-神田 愛花（KANDA AIKA）のポートフォリオサイトプロジェクトです。
+神田 愛佳（KANDA AIKA）のポートフォリオサイトプロジェクトです。<br>
 Vite, React, TypeScriptを使用して構築されており、GSAPによるアニメーションやSplide.jsによるスライダーが含まれています。
 
 ## 技術スタック
@@ -13,30 +13,10 @@ Vite, React, TypeScriptを使用して構築されており、GSAPによるア�
 - **Animation:** GSAP
 - **Slider:** Splide.js
 
-## 開発環境のセットアップ
+## デプロイリンク
 
-以下の手順でローカル環境を立ち上げることができます。
+https://kanda-aries.github.io/portfolio-1215/
 
-### 1. 依存関係のインストール
-
-```bash
-npm install
-```
-
-### 2. 開発サーバーの起動
-
-```bash
-npm run dev
-```
-起動後、ターミナルに表示されるローカルURL（通常は `http://localhost:5173`）にアクセスして確認してください。
-
-### 3. ビルド
-
-本番環境用にビルドする場合：
-
-```bash
-npm run build
-```
 
 ## ディレクトリ構造
 
@@ -71,36 +51,3 @@ src/
   - 例: `.Home__Firstview`, `.Home__Heading`
 - **Modifier (モディファイア):** 状態変化などを表す場合は `--` (ハイフン2つ) で繋げます。
   - 例: `.Home__Button--Active`
-
-### ディレクトリとファイルの対応例
-
-```
-src/pages/Home/
-├── index.tsx       # コンポーネント本体
-└── Home.module.css # スタイル定義
-```
-
-**Home.module.css**
-```css
-.Home {
-  /* ... */
-  .Home__Firstview {
-    /* ... */
-  }
-}
-```
-
-**index.tsx**
-```tsx
-import styles from './Home.module.css';
-
-function Home() {
-  return (
-    <div className={styles.Home}>
-      <section className={styles.Home__Firstview}>
-        ...
-      </section>
-    </div>
-  );
-}
-```
