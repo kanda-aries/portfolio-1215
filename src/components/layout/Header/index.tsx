@@ -12,6 +12,11 @@ function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
+
+        // スマホか
+        const isMobile = window.matchMedia("(max-width: 768px)").matches;
+        if (!isMobile) return;
+
         const menuContent = menuContentRef.current;
         const menuOverlay = menuOverlayRef.current;
         const menuContentInner = menuContentInnerRef.current;
